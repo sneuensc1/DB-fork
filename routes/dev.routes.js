@@ -38,4 +38,5 @@ router.get('/', checkAuthentication, (req, res, next) => {
 
 router.get('/:username', checkAuthentication, profileHandler);
 
-module.exports = router;
+module.exports = router; 
+
