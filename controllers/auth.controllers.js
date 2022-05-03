@@ -66,7 +66,7 @@ exports.userHandler = (req, res, next) => {
 	let message;
 	if (!req.user.email_verified && req.user.verification_email_sent)
 		message =
-			'Kindly verify your Email Address. A verification link has sent to your email address';
+			'Please verify your Email Address. A verification link has been sent to your email address';
 	delete req.user.verification_email_sent;
 	return res.status(200).json({
 		success: true,
