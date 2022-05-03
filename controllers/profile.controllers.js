@@ -466,6 +466,8 @@ exports.educationHandler = (req, res, next) => {
 			edu_cred: req.edu_cred,
 		};
 
+		
+		
 		// call update Education service
 		updateEducation(data, res, next);
 	} else if (req.method === 'DELETE') deleteEducation(req.user.id, req.edu_cred.id, res, next);
