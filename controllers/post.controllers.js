@@ -23,7 +23,7 @@ exports.addPostHandler = (req, res, next) => {
 	// Checking for body
 	let { body } = req.body;
 	if (!body || body.trim().length === 0)
-		return next(new ErrorResponse('Please add some texts to create a new post', 400));
+		return next(new ErrorResponse('Please add texts to create a new post', 400));
 
 	// Filter the body for XSS Protection
 	body = xss(body);
@@ -43,7 +43,7 @@ exports.addPostHandler = (req, res, next) => {
 		if (err) return next(err);
 
 		if (results[0].duplicatePost > 0) {
-			return next(new ErrorResponse('The Post you trying to add is already exists', 400));
+			return next(new ErrorResponse('The Post youre trying to add is already exists', 400));
 		}
 
 		// Call Add Post Service
@@ -136,7 +136,7 @@ exports.addCommentHandler = (req, res, next) => {
 		if (err) return next(err);
 
 		if (results[0].postCount === 0) {
-			return next(new ErrorResponse('Oops! requested post not found', 400));
+			return next(new ErrorResponse('requested post not found', 400));
 		}
 
 		// Checking For Duplicates
@@ -175,7 +175,7 @@ exports.updateCommentHandler = (req, res, next) => {
 	// Checking for body
 	let { body } = req.body;
 	if (!body || body.trim().length === 0)
-		return next(new ErrorResponse('Please add some texts to update your comment', 400));
+		return next(new ErrorResponse('Please add texts to update your comment', 400));
 
 	// Filter the body for XSS Protection
 	body = xss(body);
@@ -195,7 +195,7 @@ exports.updateCommentHandler = (req, res, next) => {
 		// Duplicate checking
 		if (results.length > 0 && results[0].comment_id !== req.post_comment.id) {
 			return next(
-				new ErrorResponse('This comment is already exists for this post commented by you', 400)
+				new ErrorResponse('This comment already exists for this post commented by you', 400)
 			);
 		}
 
