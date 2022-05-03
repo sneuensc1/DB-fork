@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const asyncHandler = require('../middleware/asyncHandler');
 const ErrorResponse = require('../utils/errorResponse');
 
+
 const partiallyProtectedRoute = [
 	/\/user\/(\d+)\/profile$/,
 	/\/posts$/,
