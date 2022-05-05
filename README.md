@@ -17,7 +17,7 @@ XX add purpose
 * HTML
 * CSS
 * JavaScript
-* 
+* MongoDB
 
 ## Website
 
@@ -27,9 +27,11 @@ xx add Heroku site
 
 It is best practice to directly clone the respository by using the following code in your Terminal/Command Line:
 
-git clone git@github.com:nsvoboda/SNACKR.git
+git clone git@github.com:brandonespencer/project-final.git
 
-You can also download the files into a .zip directly from the GitHub repository: https://github.com/nsvoboda/SNACKR
+You can also download the files into a .zip directly from the GitHub repository: 
+
+https://github.com/brandonespencer/project-final
 
 ### Usage
 
