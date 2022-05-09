@@ -24,7 +24,7 @@ const Developers = ({ fetchDevelopers, devState: { developers, loading } }) => {
 			<h1 className='mb-1 text-info'>Developers</h1>
 			<p className='lead'>
 				<i className='fab fa-react mr-2'></i>
-				Browse and connect with Developers
+				Browse and connect with other Developers and employees looking to hire a developer like you!
 			</p>
 			{loading || !developers ? (
 				<>
