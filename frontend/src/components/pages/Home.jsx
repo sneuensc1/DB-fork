@@ -47,9 +47,9 @@ const Home = ({ authState: { isAuthenticated, loading, user }, signInUser }) => 
 				className='container-fluid d-flex justify-content-center align-items-center py-3'
 			>
 				<div className='text-center text-light'>
-					<h1>Developers Connector</h1>
+					<h1>Developers Branch</h1>
 					<p className='lead'>
-						Create a developer profile/portfolio, share posts and get help from other developers.
+						Create a developer profile, share posts and showcase your portfolio to possible employees and other developers.
 					</p>
 					{!isAuthenticated && !loading ? (
 						<div>
