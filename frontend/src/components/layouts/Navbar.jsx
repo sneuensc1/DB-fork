@@ -12,7 +12,7 @@ const Navigation = ({ authState, logOut }) => {
 				<NavLink to='/'>
 					<Navbar.Brand>
 						<i className='fas fa-laptop-code mr-2'></i>
-						DevConnector
+						Developers Branch
 					</Navbar.Brand>
 				</NavLink>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
