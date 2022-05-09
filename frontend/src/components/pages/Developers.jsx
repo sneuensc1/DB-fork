@@ -44,9 +44,9 @@ const Developers = ({ fetchDevelopers, devState: { developers, loading } }) => {
 			) : developers && developers.length === 0 ? (
 				<>
 					<p className='lead text-center mt-5 bg-light'>
-						Sorry!! Not found any developers at this moment!
+						Sorry!! No developers found at this moment!
 						<br />
-						You can register yourself here as a developer
+						You can register yourself as a developer here
 					</p>
 				</>
 			) : (
