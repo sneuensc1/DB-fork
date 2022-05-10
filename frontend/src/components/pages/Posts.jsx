@@ -135,7 +135,7 @@ const Posts = ({
 						></StyledTextArea>
 						{postError ? (
 							<StyledInputErrorMessage className='d-block' style={{ fontSize: '0.85rem' }}>
-								Please add some text to add new post
+								Please add text to add new post
 							</StyledInputErrorMessage>
 						) : null}
 						<button disabled={submitted} type='submit' className='btn btn-dark btn-sm mt-2'>
@@ -159,7 +159,7 @@ const Posts = ({
 			) : (
 				<>
 					<p className='bg-light px-2 py-1 text-primary text-center' style={{ fontSize: '17px' }}>
-						Kindly create your developer profile first
+						Please create your developer branch profile first
 					</p>
 				</>
 			)}
@@ -181,7 +181,7 @@ const Posts = ({
 					</>
 				) : postState.posts.length === 0 ? (
 					<p className='text-center lead'>
-						Sorry!! Not found any posts at this moment. You can add new post here!
+						Sorry!! No posts at this moment. You can add new post here!
 					</p>
 				) : (
 					<div className='list-group'>
