@@ -160,7 +160,7 @@ const Register = ({ signUpUser, authState: { isAuthenticated } }) => {
 							/>{' '}
 							{wrongUserInput.first_name ? (
 								<StyledInputErrorMessage>
-									Please use only english alphabetic characters
+									Please use english alphabetic characters
 								</StyledInputErrorMessage>
 							) : (
 								<></>
@@ -182,7 +182,7 @@ const Register = ({ signUpUser, authState: { isAuthenticated } }) => {
 							/>{' '}
 							{wrongUserInput.last_name ? (
 								<StyledInputErrorMessage>
-									Please use only english alphabetic characters
+									Please use english alphabetic characters
 								</StyledInputErrorMessage>
 							) : (
 								<></>
