@@ -195,7 +195,7 @@ const DevProfileForm = ({
 							</option>
 						))}
 					</StyledSelect>
-					<StyledHelperText>Give us an idea of where you are at in your career</StyledHelperText>
+					<StyledHelperText>Where you are at in your career</StyledHelperText>
 				</div>
 				<div className='mb-3'>
 					<StyledLabel className='form-label mb-1'>
@@ -211,7 +211,7 @@ const DevProfileForm = ({
 						value={userInput.current_working_place_name}
 						placeholder={formDisable ? 'Loading ...' : 'XYZ Company'}
 					/>
-					<StyledHelperText>Could be your own company or one you work for</StyledHelperText>
+					<StyledHelperText>This could be your company or one you work at</StyledHelperText>
 				</div>
 				<div className='mb-3'>
 					<StyledLabel className='form-label mb-1'>Website URL</StyledLabel>
