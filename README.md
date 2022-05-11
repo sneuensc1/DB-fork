@@ -2,7 +2,7 @@
 
 ## Purpose
 
-XX add purpose
+A social media job search site that allows users, specicially developers, to talk about jobs they find and post links to open jobs they think their networks might want to apply for.
 
 ## Table of Contents
 - [Built With](#built-with)
@@ -18,24 +18,27 @@ XX add purpose
 * CSS
 * JavaScript
 * MongoDB
+* Mongoose
+* Express
+* React
 
 ## Website
 
-xx add Heroku site
+https://calm-ridge-73494.herokuapp.com/
 
 ### Installation
 
 It is best practice to directly clone the respository by using the following code in your Terminal/Command Line:
 
-git clone git@github.com:brandonespencer/project-final.git
+git clone git@github.com:brandonespencer/Developers-Branch.git
 
 You can also download the files into a .zip directly from the GitHub repository: 
 
-https://github.com/brandonespencer/project-final
+https://calm-ridge-73494.herokuapp.com/
 
 ### Usage
 
-// What is the usage
+Write posts, comment on posts, and share links.
 
 ![screenshot of the site's hero section]
 
@@ -43,8 +46,6 @@ https://github.com/brandonespencer/project-final
 Edited by Brandon, Karaun, and Sara
 
 ## License
-
-xx license info, left this for now
 
 &copy; 2022 Group 4
 
