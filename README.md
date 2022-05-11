@@ -34,7 +34,7 @@ git clone git@github.com:brandonespencer/Developers-Branch.git
 
 You can also download the files into a .zip directly from the GitHub repository: 
 
-https://calm-ridge-73494.herokuapp.com/
+https://github.com/brandonespencer/Developers-Branch
 
 ### Usage
 
