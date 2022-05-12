@@ -30,11 +30,11 @@ https://calm-ridge-73494.herokuapp.com/
 
 It is best practice to directly clone the respository by using the following code in your Terminal/Command Line:
 
-git clone git@github.com:brandonespencer/Developers-Branch.git
+git clone git@github.com:sneuensc1/Developers-Branch.git
 
 You can also download the files into a .zip directly from the GitHub repository: 
 
-https://github.com/brandonespencer/Developers-Branch
+https://github.com/sneuensc1/Developers-Branch
 
 ### Usage
 
