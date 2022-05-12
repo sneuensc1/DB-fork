@@ -25,12 +25,12 @@ if (process.env.NODE_ENV !== 'production') {
 }
 app.use(require('cors')());
 // Database Setup (Create Connection to Database)
-const db = mysql.createConnection({
-	host: process.env.DB_HOST,
-	user: process.env.DB_USER,
-	password: process.env.DB_USER_PASSWORD,
-	database: process.env.DB_DATABASE,
-	port: process.env.DB_PORT,
+const db = mongoose.createConnection({
+	host: "localhost",
+	user: "root",
+	password: "root",
+	database: project3,
+	port: 3306,
 	multipleStatements: true,
 });
 
