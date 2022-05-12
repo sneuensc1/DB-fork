@@ -17,8 +17,8 @@ A social media job search site that allows users, specicially developers, to tal
 * HTML
 * CSS
 * JavaScript
-* MongoDB
-* Mongoose
+* mysql
+* sql
 * Express
 * React
 

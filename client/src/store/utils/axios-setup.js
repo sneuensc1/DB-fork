@@ -1,6 +1,6 @@
 import axios from 'axios';
 let instance = axios.create({
-	baseURL: 'http://localhost:5050/api/v1',
+	baseURL: 'http://localhost:5000/api/v1',
 	timeout: 5000,
 });
 
