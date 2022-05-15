@@ -4,8 +4,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "concurrently \"node index.js\" \"cd client && npm start\"",
-		"develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-		"install": "cd server && npm i && cd client && npm i",
+		"develop": "concurrently \"npm run watch\" \"cd client && npm start\"",
+		"install": "npm i && cd client && npm i",
 		"build": "cd client && mpm run build"
 	},
 	"keywords": [],
